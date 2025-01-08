@@ -15,8 +15,6 @@ Algorithms: Implementations of popular algorithms and problem-solving strategies
 
 Data Structures: Examples of how C++ excels in handling complex data.
 
-Resources: Notes, tips, and best practices for mastering C++.
-
 
 Why C++?
 
@@ -68,7 +66,3 @@ g++ filename.cpp -o output && ./output
 Acknowledgments
 
 To everyone who helped me along the way—mentors, peers, and the incredible C++ community—thank you for inspiring me to keep learning and sharing.
-
-Let’s Connect!
-
-If you have ideas or want to discuss all things C++, reach out to me or create an issue in this repository. Together, we can build something amazing. 💻✨
