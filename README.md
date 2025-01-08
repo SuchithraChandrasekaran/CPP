@@ -20,7 +20,6 @@ Why C++?
 
 C++ is more than just a programming language to me; it's where my career began, and it has been my constant companion in learning, creating, and growing as a software developer.
 
-Here’s why I love C++:
 
 Performance: Its unmatched speed and efficiency make it a favorite for system-level programming.
 
