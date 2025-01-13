@@ -80,11 +80,10 @@ Grouping Elements:
 Bag Data Structures:
     Useful for modeling bag-like collections where duplicates matter but order doesn’t.
 
-Summary of Differences:
 
-Type                        Duplicates         Order           Time Complexity 			Key Use Case
-
-std::set                    No                 Sorted          O(log n)  					Unique elements in sorted order, range-based queries.
-std::multiset               Yes                Sorted          O(log n) 					Handling duplicates in sorted order, frequency tracking.
-std::unordered_set          No                 Unordered       O(1) average, O(n) worst 	Unique elements with fast lookups, no order needed.
-std::unordered_multiset     Yes                Unordered       O(1) average, O(n) worst 	Handling duplicates with fast lookups, no order needed.
+|Type                        |Duplicates          |Order           |Time Complexity 			|Key Use Case											 |
+|----------------------------|--------------------|----------------|----------------------------|--------------------------------------------------------|
+|std::set                    |No                  |Sorted          |O(log n)  					|Unique elements in sorted order, range-based queries.   |
+|std::multiset               |Yes                 |Sorted          |O(log n) 					|Handling duplicates in sorted order, frequency tracking |
+|std::unordered_set          |No                  |Unordered       |O(1) average, O(n) worst 	|Unique elements with fast lookups, no order needed.     |
+|std::unordered_multiset     |Yes                 |Unordered       |O(1) average, O(n) worst 	|Handling duplicates with fast lookups, no order needed. |
