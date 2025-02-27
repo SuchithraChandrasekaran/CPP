@@ -37,7 +37,7 @@ Advanced Concepts: Delve into memory management, multithreading, design patterns
 Hands-On Code: Each file and folder in this repository helps in problem-solving.
 
 
-Join Me on This Journey 🚀
+Join Me on This Journey 
 
 Whether you're a beginner exploring C++ for the first time or a seasoned pro, feel free to:
 
@@ -52,9 +52,9 @@ Whether you're a beginner exploring C++ for the first time or a seasoned pro, fe
 
 How to Get Started
 
-Clone the repository:
+Fork & Clone the repository:
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/SuchithraChandrasekaran/CPP.git
 
 Navigate to the project folder and start exploring!
 
