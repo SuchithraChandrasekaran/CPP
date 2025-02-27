@@ -1,14 +1,14 @@
-Welcome to My C++ Repository! 🌟
-
+Welcome to My C++ Repository! 
+-------------------
 
 
 About This Repository:
-
+----
 This repository is dedicated to my C++ journey 
 
 
 Here, you'll find:
-
+----
 Projects: Real-world applications 
 
 Algorithms: Implementations of popular algorithms
@@ -38,7 +38,7 @@ Hands-On Code: Each file and folder in this repository helps in problem-solving.
 
 
 Join Me on This Journey 
-
+-----
 Whether you're a beginner exploring C++ for the first time or a seasoned pro, feel free to:
 
 *Explore the repository
@@ -51,7 +51,7 @@ Whether you're a beginner exploring C++ for the first time or a seasoned pro, fe
 
 
 How to Get Started
-
+-----
 Fork & Clone the repository:
 
 git clone https://github.com/SuchithraChandrasekaran/CPP.git
@@ -64,5 +64,5 @@ g++ filename.cpp -o output && ./output
 
 
 Acknowledgments
-
+---
 To everyone who helped me along the way—mentors, peers —thank you for inspiring me to keep learning and sharing.
