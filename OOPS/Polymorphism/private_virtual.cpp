@@ -12,8 +12,8 @@ public:
 
 class B : public A 
 {
-protected:
-    void display() override 
+    protected:
+    void display()  
     {  // Now accessible via A*
         cout << "I am B display\n";
     }
@@ -22,10 +22,10 @@ protected:
 int main() 
 {
     A* aPtr = new B();  
-    B bObj;
+    /* B bObj;
     A& aObj = bObj;
 
-    aObj.display();   // Calls B::display()
+    aObj.display();   // Calls B::display() */
     aPtr->display();  // Calls B::display()
 
     delete aPtr;
