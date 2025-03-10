@@ -1,11 +1,33 @@
+/*
+Shallow Copy (Issue)
+When obj1 is copied to obj2, both objects point to the same memory location.
+When the destructor is called for obj2, it deletes the memory, and then when obj1 is destroyed, 
+it tries to delete the same memory, causing a double delete issue.
+
+Deep Copy (Solution)
+When obj3 is copied to obj4, a new memory location is allocated for obj4, avoiding memory corruption.
+Each object has its own copy of the allocated memory, preventing double deletion.
+-----------------------
+Purpose of Deep(int val)
+
+It is used when we create a new Deep object using an integer value (e.g., Deep obj3(100);).
+This constructor is necessary for objects that are instantiated without copying another object.
+Deep Copy Constructor (Deep(const Deep& other))
+
+This constructor ensures a separate memory allocation when copying another object (e.g., Deep obj4 = obj3;).
+Without this, a shallow copy would occur, leading to double deletion issues.
+
+
+*/
+
 #include <iostream>
 using namespace std;
 
 class Shallow 
 {
-public:
+
     int* data;
-    
+    public:
     Shallow(int val) 
     { 
         data = new int(val); 
@@ -21,9 +43,9 @@ public:
 
 class Deep 
 {
-public:
+
     int* data2;
-    
+    public:   
     Deep(int val) 
     { 
         data2 = new int(val); 
