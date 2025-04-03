@@ -1,14 +1,8 @@
-Welcome to My C++ Repository! 
+C++ Repository 
 -------------------
 
-
-About This Repository:
-----
-This repository is dedicated to my C++ journey 
-
-
 Here, you'll find:
-----
+-----------------
 Projects: Real-world applications 
 
 Algorithms: Implementations of popular algorithms
