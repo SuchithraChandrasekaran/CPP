@@ -1,6 +1,11 @@
 //Use malloc, calloc, and realloc if working with legacy C code.
 //Data from stack would be automatically deallocated when the function exits, but heap allocations persist until free() is called.
 //malloc, calloc, realloc, uses heap DS
+//malloc(size): Allocates memory, garbage initialized
+//calloc(n, size): Allocates and initializes memory to 0.
+//realloc- Old contents are preserved.
+//Newly added memory is uninitialized (contains garbage values).
+
 #include <iostream>
 #include <cstdlib> // For malloc, calloc, realloc, free
 
