@@ -8,6 +8,7 @@ Here, you'll find:
 - Algorithms: Implementations of popular algorithms
 
 Why C++?
+--------
 
 C++ has been the foundation of my software journey — combining performance,
 
