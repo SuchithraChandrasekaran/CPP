@@ -13,8 +13,19 @@ class Student
         rollno = num;
     }
 
-    int getSpeed() 
+    int getRollnum() 
     {
         return rollno;
     }
 };
+
+int main() 
+{
+    Student s1;
+    s1.setRollnum(101); // set roll number
+    cout << "Roll Number: " << s1.getRollnum() << endl; // get and display it
+    return 0;
+}
+/* Expected output
+Roll Number: 101
+*/
