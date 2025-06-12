@@ -1,4 +1,4 @@
-/* multiple(many) classes inherit from a single base class
+/* Hierarchical inheritance is when multiple derived classes inherit from a single base class.
 */
 #include <iostream>
 
