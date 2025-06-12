@@ -30,7 +30,7 @@ class LibraryMember : public Faculty, public Student
 int main() {
     LibraryMember lm;
     // lm.introduce(); // Ambiguous - from both Faculty and Student
-    lm.work();   // From Faculty
+    lm.teach();   // From Faculty
     lm.study();  // From Student
     lm.readBooks(); // Own method
 }
